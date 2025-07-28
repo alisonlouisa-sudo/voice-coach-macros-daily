@@ -8,61 +8,64 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Health & Wellness Color Palette */
-    --background: 150 20% 98%;
-    --foreground: 158 30% 15%;
+    /* Enterprise Professional Color Palette */
+    --background: 210 20% 98%;
+    --foreground: 222 84% 5%;
 
     --card: 0 0% 100%;
-    --card-foreground: 158 30% 15%;
+    --card-foreground: 222 84% 5%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 158 30% 15%;
+    --popover-foreground: 222 84% 5%;
 
-    /* Primary: Vibrant health green */
-    --primary: 152 60% 45%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 152 60% 65%;
+    /* Primary: Professional blue */
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --primary-glow: 221 83% 65%;
 
-    /* Secondary: Calming teal */
-    --secondary: 168 45% 92%;
-    --secondary-foreground: 158 30% 15%;
+    /* Secondary: Neutral gray */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 150 20% 94%;
-    --muted-foreground: 158 15% 45%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    /* Accent: Energetic orange for highlights */
-    --accent: 25 95% 65%;
+    /* Accent: Professional teal */
+    --accent: 174 72% 56%;
     --accent-foreground: 0 0% 100%;
 
-    /* Success: Protein/nutrition achievement */
-    --success: 142 75% 55%;
+    /* Success: Completion green */
+    --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
 
-    /* Warning: Caution/attention needed */
-    --warning: 45 95% 65%;
+    /* Warning: Attention amber */
+    --warning: 43 96% 56%;
     --warning-foreground: 25 30% 15%;
 
-    --destructive: 0 75% 65%;
+    /* In Progress: Professional blue */
+    --in-progress: 221 83% 53%;
+    --in-progress-foreground: 0 0% 100%;
+
+    /* Paused: Neutral gray */
+    --paused: 43 96% 56%;
+    --paused-foreground: 25 30% 15%;
+
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 150 20% 88%;
-    --input: 150 20% 96%;
-    --ring: 152 60% 45%;
-
-    /* Voice interface colors */
-    --voice-active: 152 60% 45%;
-    --voice-idle: 158 15% 45%;
-    --voice-listening: 25 95% 65%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(152 60% 45%), hsl(152 60% 65%));
-    --gradient-accent: linear-gradient(135deg, hsl(25 95% 65%), hsl(45 95% 75%));
-    --gradient-background: linear-gradient(180deg, hsl(150 20% 98%), hsl(150 15% 96%));
+    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(221 83% 65%));
+    --gradient-accent: linear-gradient(135deg, hsl(174 72% 56%), hsl(174 72% 70%));
+    --gradient-background: linear-gradient(180deg, hsl(210 20% 98%), hsl(210 15% 96%));
 
     /* Shadows */
-    --shadow-soft: 0 4px 20px -8px hsl(152 60% 45% / 0.15);
-    --shadow-medium: 0 8px 30px -12px hsl(152 60% 45% / 0.25);
-    --shadow-strong: 0 16px 40px -16px hsl(152 60% 45% / 0.35);
+    --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-medium: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-strong: 0 10px 15px -3px hsl(0 0% 0% / 0.1), 0 4px 6px -4px hsl(0 0% 0% / 0.1);
 
     --radius: 1rem;
 
@@ -84,53 +87,55 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Dark mode: Deep green with warm accents */
-    --background: 158 25% 8%;
-    --foreground: 150 20% 95%;
+    /* Dark mode: Professional dark theme */
+    --background: 222 84% 5%;
+    --foreground: 210 40% 98%;
 
-    --card: 158 20% 12%;
-    --card-foreground: 150 20% 95%;
+    --card: 222 84% 5%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 158 20% 12%;
-    --popover-foreground: 150 20% 95%;
+    --popover: 222 84% 5%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 152 55% 55%;
-    --primary-foreground: 158 25% 8%;
-    --primary-glow: 152 55% 75%;
+    --primary: 217 92% 76%;
+    --primary-foreground: 222 47% 11%;
+    --primary-glow: 217 92% 85%;
 
-    --secondary: 158 20% 18%;
-    --secondary-foreground: 150 20% 95%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 158 15% 15%;
-    --muted-foreground: 150 10% 65%;
+    --muted: 215 28% 17%;
+    --muted-foreground: 218 11% 65%;
 
-    --accent: 25 85% 65%;
-    --accent-foreground: 158 25% 8%;
+    --accent: 174 72% 56%;
+    --accent-foreground: 222 84% 5%;
 
-    --success: 142 65% 55%;
-    --success-foreground: 158 25% 8%;
+    --success: 142 76% 36%;
+    --success-foreground: 210 40% 98%;
 
-    --warning: 45 85% 65%;
-    --warning-foreground: 158 25% 8%;
+    --warning: 43 96% 56%;
+    --warning-foreground: 222 84% 5%;
 
-    --destructive: 0 65% 65%;
-    --destructive-foreground: 158 25% 8%;
+    --in-progress: 217 92% 76%;
+    --in-progress-foreground: 222 47% 11%;
 
-    --border: 158 15% 20%;
-    --input: 158 15% 18%;
-    --ring: 152 55% 55%;
+    --paused: 43 96% 56%;
+    --paused-foreground: 222 84% 5%;
 
-    --voice-active: 152 55% 55%;
-    --voice-idle: 150 10% 65%;
-    --voice-listening: 25 85% 65%;
+    --destructive: 0 63% 60%;
+    --destructive-foreground: 210 40% 98%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(152 55% 45%), hsl(152 55% 65%));
-    --gradient-accent: linear-gradient(135deg, hsl(25 85% 55%), hsl(45 85% 65%));
-    --gradient-background: linear-gradient(180deg, hsl(158 25% 8%), hsl(158 20% 10%));
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 217 92% 76%;
 
-    --shadow-soft: 0 4px 20px -8px hsl(0 0% 0% / 0.3);
-    --shadow-medium: 0 8px 30px -12px hsl(0 0% 0% / 0.4);
-    --shadow-strong: 0 16px 40px -16px hsl(0 0% 0% / 0.5);
+    --gradient-primary: linear-gradient(135deg, hsl(217 92% 70%), hsl(217 92% 85%));
+    --gradient-accent: linear-gradient(135deg, hsl(174 72% 50%), hsl(174 72% 65%));
+    --gradient-background: linear-gradient(180deg, hsl(222 84% 5%), hsl(215 28% 17%));
+
+    --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.3), 0 1px 2px -1px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 4px 6px -1px hsl(0 0% 0% / 0.3), 0 2px 4px -2px hsl(0 0% 0% / 0.3);
+    --shadow-strong: 0 10px 15px -3px hsl(0 0% 0% / 0.3), 0 4px 6px -4px hsl(0 0% 0% / 0.3);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

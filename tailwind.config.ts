@@ -61,10 +61,13 @@ export default {
 					DEFAULT: 'hsl(var(--warning))',
 					foreground: 'hsl(var(--warning-foreground))'
 				},
-				voice: {
-					active: 'hsl(var(--voice-active))',
-					idle: 'hsl(var(--voice-idle))',
-					listening: 'hsl(var(--voice-listening))'
+				'in-progress': {
+					DEFAULT: 'hsl(var(--in-progress))',
+					foreground: 'hsl(var(--in-progress-foreground))'
+				},
+				paused: {
+					DEFAULT: 'hsl(var(--paused))',
+					foreground: 'hsl(var(--paused-foreground))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
