@@ -78,6 +78,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'company-red': {
+					DEFAULT: 'hsl(var(--company-red))',
+					foreground: 'hsl(var(--company-red-foreground))'
+				},
+				'company-blue': {
+					DEFAULT: 'hsl(var(--company-blue))',
+					foreground: 'hsl(var(--company-blue-foreground))'
 				}
 			},
 			borderRadius: {
@@ -88,6 +96,7 @@ export default {
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-company': 'var(--gradient-company)',
 				'gradient-background': 'var(--gradient-background)'
 			},
 			boxShadow: {

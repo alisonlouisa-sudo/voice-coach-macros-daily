@@ -107,11 +107,11 @@ const Dashboard = () => {
   const getStatusBadge = (status: string) => {
     switch (status) {
       case 'In Progress':
-        return <Badge className="bg-in-progress text-in-progress-foreground">In Progress</Badge>;
+        return <Badge variant="company-blue">In Progress</Badge>;
       case 'Completed':
         return <Badge className="bg-success text-success-foreground">Completed</Badge>;
       case 'Paused':
-        return <Badge className="bg-paused text-paused-foreground">Paused</Badge>;
+        return <Badge variant="company-red">Paused</Badge>;
       default:
         return <Badge variant="secondary">{status}</Badge>;
     }

@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Enterprise Professional Color Palette */
+    /* Enterprise Professional Color Palette - Company Colors */
     --background: 210 20% 98%;
     --foreground: 222 84% 5%;
 
@@ -18,21 +18,27 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222 84% 5%;
 
-    /* Primary: Professional blue */
-    --primary: 221 83% 53%;
-    --primary-foreground: 210 40% 98%;
-    --primary-glow: 221 83% 65%;
+    /* Primary: Company Dark Blue */
+    --primary: 218 90% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 218 90% 35%;
 
-    /* Secondary: Neutral gray */
+    /* Secondary: Light neutral */
     --secondary: 210 40% 96%;
     --secondary-foreground: 222 47% 11%;
 
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
-    /* Accent: Professional teal */
-    --accent: 174 72% 56%;
+    /* Accent: Company Red */
+    --accent: 0 85% 55%;
     --accent-foreground: 0 0% 100%;
+
+    /* Company Colors */
+    --company-red: 0 85% 55%;
+    --company-red-foreground: 0 0% 100%;
+    --company-blue: 218 90% 25%;
+    --company-blue-foreground: 0 0% 100%;
 
     /* Success: Completion green */
     --success: 142 76% 36%;
@@ -58,8 +64,9 @@ All colors MUST be HSL.
     --ring: 221 83% 53%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(221 83% 65%));
-    --gradient-accent: linear-gradient(135deg, hsl(174 72% 56%), hsl(174 72% 70%));
+    --gradient-primary: linear-gradient(135deg, hsl(218 90% 25%), hsl(218 90% 35%));
+    --gradient-accent: linear-gradient(135deg, hsl(0 85% 55%), hsl(0 85% 65%));
+    --gradient-company: linear-gradient(135deg, hsl(218 90% 25%), hsl(0 85% 55%));
     --gradient-background: linear-gradient(180deg, hsl(210 20% 98%), hsl(210 15% 96%));
 
     /* Shadows */
@@ -97,9 +104,9 @@ All colors MUST be HSL.
     --popover: 222 84% 5%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 217 92% 76%;
-    --primary-foreground: 222 47% 11%;
-    --primary-glow: 217 92% 85%;
+    --primary: 218 90% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 218 90% 45%;
 
     --secondary: 217 33% 17%;
     --secondary-foreground: 210 40% 98%;
@@ -107,8 +114,14 @@ All colors MUST be HSL.
     --muted: 215 28% 17%;
     --muted-foreground: 218 11% 65%;
 
-    --accent: 174 72% 56%;
-    --accent-foreground: 222 84% 5%;
+    --accent: 0 85% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Company Colors Dark Mode */
+    --company-red: 0 85% 60%;
+    --company-red-foreground: 0 0% 100%;
+    --company-blue: 218 90% 35%;
+    --company-blue-foreground: 0 0% 100%;
 
     --success: 142 76% 36%;
     --success-foreground: 210 40% 98%;
@@ -129,8 +142,9 @@ All colors MUST be HSL.
     --input: 215 28% 17%;
     --ring: 217 92% 76%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(217 92% 70%), hsl(217 92% 85%));
-    --gradient-accent: linear-gradient(135deg, hsl(174 72% 50%), hsl(174 72% 65%));
+    --gradient-primary: linear-gradient(135deg, hsl(218 90% 30%), hsl(218 90% 45%));
+    --gradient-accent: linear-gradient(135deg, hsl(0 85% 55%), hsl(0 85% 70%));
+    --gradient-company: linear-gradient(135deg, hsl(218 90% 30%), hsl(0 85% 55%));
     --gradient-background: linear-gradient(180deg, hsl(222 84% 5%), hsl(215 28% 17%));
 
     --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.3), 0 1px 2px -1px hsl(0 0% 0% / 0.3);

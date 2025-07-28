@@ -10,42 +10,42 @@ import { Label } from '@/components/ui/label';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Plus, Brain, TrendingUp, FileText, Sparkles, Calendar, Tag } from 'lucide-react';
 
-// Sample themes data
+// Sample themes data - Enterprise Leadership Focus
 const themes = [
   {
     id: 'theme-001',
     date: '2025-01-20',
-    function: 'Engineering',
-    keywords: ['work-life balance', 'technical debt', 'team scaling'],
-    notes: 'Multiple engineering leaders discussing challenges with managing technical debt while scaling teams rapidly.'
+    function: 'C-Suite',
+    keywords: ['strategic vision', 'digital transformation', 'organizational change'],
+    notes: 'Senior executives discussing enterprise-wide digital transformation initiatives and change management strategies.'
   },
   {
     id: 'theme-002',
     date: '2025-01-18',
-    function: 'Sales',
-    keywords: ['pipeline management', 'forecasting accuracy', 'remote selling'],
-    notes: 'Sales directors focusing on improving forecast accuracy and adapting to remote selling environments.'
+    function: 'Engineering',
+    keywords: ['executive presence', 'technical leadership', 'board communication'],
+    notes: 'VP/SVP-level engineers developing executive presence and communicating technical strategy to board members.'
   },
   {
     id: 'theme-003',
     date: '2025-01-15',
-    function: 'Product',
-    keywords: ['user research', 'product-market fit', 'roadmap prioritization'],
-    notes: 'Product leaders seeking guidance on balancing user feedback with strategic roadmap decisions.'
+    function: 'Sales',
+    keywords: ['revenue leadership', 'enterprise sales strategy', 'market expansion'],
+    notes: 'Chief Revenue Officers focusing on enterprise market expansion and strategic customer relationships.'
   },
   {
     id: 'theme-004',
     date: '2025-01-12',
-    function: 'Marketing',
-    keywords: ['brand positioning', 'content strategy', 'attribution modeling'],
-    notes: 'Marketing executives working on unified brand messaging and improving marketing attribution.'
+    function: 'HR/People',
+    keywords: ['talent acquisition', 'succession planning', 'organizational culture'],
+    notes: 'Chief People Officers working on enterprise talent strategy and building high-performance cultures.'
   },
   {
     id: 'theme-005',
     date: '2025-01-10',
-    function: 'Engineering',
-    keywords: ['communication skills', 'cross-functional collaboration', 'technical leadership'],
-    notes: 'Senior engineers transitioning to leadership roles, focusing on non-technical skills development.'
+    function: 'Operations',
+    keywords: ['operational excellence', 'process optimization', 'scalability'],
+    notes: 'COOs developing frameworks for operational excellence and enterprise scalability initiatives.'
   },
   {
     id: 'theme-006',
